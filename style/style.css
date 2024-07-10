@@ -8,5 +8,36 @@
 
 }
 body{
-    font-family: Azeret Mono;
+    font-family: Azeret Mono, sans-serif;
+}
+.hero-section-container{
+    max-width: 1520px;
+    height: 780px;
+    border: 1px solid red;
+}
+.navigation{
+    /* border: 1px solid green; */
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    /* gap: 150px; */
+    height: 130px;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-logo{
+    font-size: 28px;
+    font-weight: 800;
+}
+.resume-button{
+    /* box-sizing: border-box; */
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #fff;
+}
+.resume-button a{
+text-decoration: none;
+color: #000;
 }
