@@ -6,7 +6,9 @@
     margin: 0;
     padding: 0;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: Azeret Mono, sans-serif;
     font-size: 16px;
@@ -422,3 +424,4 @@ color: rgb(13, 19, 33);
     justify-content: space-around;
     gap: 32px;
 }
+
