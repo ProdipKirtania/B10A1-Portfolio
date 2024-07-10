@@ -129,12 +129,20 @@ color: rgb(13, 19, 33);
     background-color: #000;
 }
 
+.contact-button:hover {
+    border-radius: 8px;
+    padding: 15px 20px;
+    font-size: 20px;
+    background-color: #067eff;
+    border: none;
+}
+
 .contact-button a {
     text-decoration: none;
     color: #fff;
 }
 
-
+/* main container style start */
 .main-container{
     max-width: 1520px;
 }
@@ -230,8 +238,6 @@ color: rgb(13, 19, 33);
     border-radius: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
-    /* background: #FAFAFB; */
-    /* border: 1px solid red; */
 }
 
 .inspiration-intro {
